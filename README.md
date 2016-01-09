@@ -131,7 +131,7 @@ Stops playback of sound, resetting `seek` to `0`.
 #### mute([muted], [id])
 Mutes the sound, but doesn't pause the playback.
 * **muted**: `Boolean` `optional` True to mute and false to unmute.
-* **id**: `Number` `optional` The sound ID. If none is passed, all sounds in group are stopped.
+* **id**: `Number` `optional` The sound ID. If none is passed, all sounds in group are muted.
 
 #### volume([volume], [id])
 Get/set volume of this sound or the group. This method optionally takes 0, 1 or 2 arguments.
